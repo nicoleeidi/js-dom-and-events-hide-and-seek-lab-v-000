@@ -4,3 +4,4 @@ function getFirstSelector(selector){
 function nestedTarget(){
 document.querySelector('#nested div div div.target')
 }
+function increaseRankBy(n)
