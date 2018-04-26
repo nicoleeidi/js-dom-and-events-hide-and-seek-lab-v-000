@@ -7,8 +7,8 @@ return document.querySelector('#nested div div div.target')
 function increaseRankBy(n){
   let array= document.querySelectorAll('.ranked-list li')
   for (let i=0, i < array.length, i++){
-    string= array[i].innerHTML 
-    parseInt(string,10)
+    string= array[i].innerHTML
+    result= parseInt(string,10)
   }
-  
+
 }
