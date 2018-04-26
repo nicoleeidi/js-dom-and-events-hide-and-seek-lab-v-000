@@ -9,8 +9,9 @@ function increaseRankBy(n){ //need return in JS
   for (let i=0; i < array.length; i++){
     string= array[i].innerHTML
     array[i].innerHTML= parseInt(string,10) + n
-    return array
+  
   }
+    return array
 }
 function deepestChild(n){
 
