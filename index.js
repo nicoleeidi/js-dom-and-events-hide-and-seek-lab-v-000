@@ -10,5 +10,4 @@ function increaseRankBy(n){
     string= array[i].innerHTML
     array[i].innerHTML= parseInt(string,10) + n
   }
-
 }
